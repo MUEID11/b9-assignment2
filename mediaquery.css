@@ -8,6 +8,8 @@
       url("./Images/Group\ 13.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     text-align: center;
     margin: 20px;
     padding: 40px;
