@@ -64,7 +64,9 @@ header .nav-bar > ul li {
   font-weight: 800px;
   display: block;
   padding: 15px;
-  color: var(--text-faded);
+}
+.nav-bar > ul li .active{
+  color: #ff5400;
 }
 .nav-bar {
   font-weight: 800;
@@ -388,11 +390,13 @@ footer {
 }
 .icons {
   font-size: 2rem;
-  margin-top: 24px;
+  margin: 24px 0;
   cursor: pointer;
 }
 .icons .icon {
   margin: 0 10px;
 }
+.rights{
+  margin: 30px 0;
+}
 
-/* media quary*/
