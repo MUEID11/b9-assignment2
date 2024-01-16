@@ -488,6 +488,7 @@
       }
       header {
           padding: 20px;
+          z-index: 222;
         }
       .logo-items {
           display: flex;

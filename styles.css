@@ -12,7 +12,7 @@
   --primary-color: #ff5400;
   --text-black: #131318;
   --text-secondary: #ffffff;
-  --text-faded: #424247;
+  --text-faded: #2e2e2e;
 }
 
 .orange {
@@ -39,34 +39,34 @@ header {
 }
 /*hamburger*/
 
-#menu-bar{
-    display: none;
+#menu-bar {
+  display: none;
 }
-header label{
-    font-size: 1.8rem;
-    color: #000000;
-    cursor: pointer;
-    display: none;
+header label {
+  font-size: 1.8rem;
+  color: #000000;
+  cursor: pointer;
+  display: none;
 }
-header .nav-bar ul {
+header .nav-bar > ul {
   display: flex;
-  list-style: none;
-}
-header .nav-bar ul li {
-  position: relative;
   color: var(--text-faded);
-  margin-left: 2.75rem;
+  list-style: none;
+  font-weight: 800px;
+  
+}
+header .nav-bar > ul li {
+  position: relative;
+  margin-left: 1.75rem;
+  font-weight: 800px;
 }
 .nav-bar > ul li a {
   text-decoration: none;
   font-size: 1.2rem;
+  font-weight: 800px;
   display: block;
-}
-.nav-bar > ul li a:hover,
-.nav-bar > ul li a:focus,
-.nav-bar > ul li a:active {
-  color: var(--primary-color);
-  font-weight: 800;
+  padding: 15px;
+  
 }
 
 /*title and background image*/
@@ -178,26 +178,26 @@ h3 {
   display: grid;
   grid-gap: 20px;
 }
-.destination-img img{
+.destination-img img {
   width: 100%;
   height: 400px;
 }
-.first-column{
+.first-column {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.second-column{
+.second-column {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 /*centering text*/
-.text-center{
+.text-center {
   position: relative;
   color: var(--text-secondary);
 }
-.text-center h3{
+.text-center h3 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -237,7 +237,8 @@ h3 {
   margin: 100px 135px;
   text-align: center;
 }
-.deals h3,p {
+.deals h3,
+p {
   margin-bottom: 24px;
 }
 .tour-content1 {
@@ -247,7 +248,9 @@ h3 {
   max-width: 600px;
   padding: 30px;
 }
-.tour-content1 .book ,h4, p{
+.tour-content1 .book,
+h4,
+p {
   margin: 20px 0;
 }
 
@@ -276,7 +279,7 @@ h3 {
 .small small {
   margin: 0 30px 20px 0;
 }
-video{
+video {
   border-radius: 10px;
   width: 800px;
   height: cover;
@@ -337,18 +340,17 @@ hr {
   position: absolute;
   top: 60%;
   left: 60%;
-  transform:rotate(-15deg) translate(15%, 70%);
-  
+  transform: rotate(-15deg) translate(15%, 70%);
 }
 
 /*Extra section*/
-.testimonial{
+.testimonial {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 0 135px 100px 135px;
 }
-.review{
+.review {
   background-color: antiquewhite;
   border-radius: 10px;
   border: 1px solid rgb(255, 185, 178);
@@ -356,22 +358,22 @@ hr {
   padding: 30px;
   text-align: left;
 }
-.review h4{
+.review h4 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-.review p{
+.review p {
   color: #424247;
   margin: 10px 0;
 }
 /*footer section*/
 footer {
-  background-color:rgba(19, 19, 24, 0.05);
+  background-color: rgba(19, 19, 24, 0.05);
   padding: 100px auto;
   text-align: center;
   align-items: center;
 }
-.footer-content{
+.footer-content {
   padding: 100px 400px;
 }
 .footer-logo {
@@ -380,15 +382,15 @@ footer {
   justify-content: center;
   margin-bottom: 24px;
 }
-.footer-logo img{
+.footer-logo img {
   margin-right: 10px;
 }
-.icons{
+.icons {
   font-size: 2rem;
   margin-top: 24px;
   cursor: pointer;
 }
-.icons .icon{
+.icons .icon {
   margin: 0 10px;
 }
 
