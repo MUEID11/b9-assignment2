@@ -217,7 +217,10 @@
     margin-top: 10px;
   }
   header {
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
   }
   .logo-items {
     display: flex;
