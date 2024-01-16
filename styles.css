@@ -20,13 +20,11 @@
 }
 
 /*header section styling*/
-/*hamburger*/
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 130px;
+  padding: 30px 130px;
 }
 .logo-items {
   display: flex;
@@ -39,18 +37,30 @@ header {
   height: 56px;
   width: auto;
 }
+/*hamburger*/
 
-.nav-bar > ul {
+#menu-bar{
+    display: none;
+}
+header label{
+    font-size: 1.8rem;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+}
+header .nav-bar ul {
   display: flex;
   list-style: none;
 }
-.nav-bar > ul li {
+header .nav-bar ul li {
+  position: relative;
   color: var(--text-faded);
   margin-left: 2.75rem;
 }
 .nav-bar > ul li a {
   text-decoration: none;
   font-size: 1.2rem;
+  display: block;
 }
 .nav-bar > ul li a:hover,
 .nav-bar > ul li a:focus,
