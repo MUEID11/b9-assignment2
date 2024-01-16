@@ -224,14 +224,16 @@ h3 {
   justify-content: center;
 }
 .card {
+  border: 1px solid #ffa64033;
   background-color: #fbb56333;
-  max-width: 600px;
+  max-width: 900px;
   border-radius: 5px;
   padding: 40px;
   text-align: left;
-  margin: 20px;
+  margin: 40px;
 }
 .card3 {
+  border: 1px solid  #1bd1ff33;
   background-color: #29cef633;
 }
 
