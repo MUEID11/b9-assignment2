@@ -226,12 +226,12 @@
     display: flex;
   }
   #logo-h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 800px;
     margin-left: 10px;
   }
   #logo-img {
-    height: 28px;
+    height: 24px;
     width: auto;
   }
   header label {

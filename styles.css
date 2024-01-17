@@ -249,11 +249,12 @@ p {
   margin-bottom: 24px;
 }
 .tour-content1 {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   text-align: left;
   border-radius: 10px;
   max-width: 600px;
   padding: 30px;
+  border: 1px solid #fafcff;
 }
 .tour-content1 .book,
 h4,
